@@ -1,0 +1,49 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
+  overflow-y: scroll;
+}
+
+a {
+  color: #165690;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #df8a13;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header-logo {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #232323;
+  background-image: url(../img/header-bg.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.header-logo__title {
+  display: block;
+  font-family: "PT Serif", serif;
+  font-size: 3.5rem;
+  letter-spacing: 0.33em;
+  color: #df8a13;
+  margin-right: -20px;
+  text-shadow: 0 0  5px black, 0 0 20px black;
+}
+
+.header-logo__description {
+  display: block;
+  font-size: 1.15rem;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  text-shadow: 0 0  5px black, 0 0 20px black;
+}
