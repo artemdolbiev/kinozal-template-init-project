@@ -2,6 +2,10 @@
   text-shadow: 0 0 5px black, 0 0 20px black;
 }
 
+.header, .main, .left-slidebar {
+  margin-bottom: 80.0px;
+}
+
 .navbar-inverse {
   margin-bottom: 0;
   background-color: #191919;
@@ -35,6 +39,27 @@
   margin-right: 0;
 }
 
+.panel {
+  border: none;
+  background-color: #f1f1f1;
+  margin-bottom: 30px;
+}
+
+.panel-info > .panel-heading {
+  color: #ffffff;
+  background-color: #df8a13;
+  border: none;
+}
+
+.panel-title {
+  font-size: 1.2rem;
+}
+
+.panel-body {
+  border: 1px solid #dddddd;
+  border-radius: 0 0 4px 4px;
+}
+
 html {
   font-size: 16px;
 }
@@ -52,10 +77,6 @@ a {
 a:hover, a:focus {
   text-decoration: none;
   color: #df8a13;
-}
-
-.header {
-  margin-bottom: 80px;
 }
 
 .header-logo {
