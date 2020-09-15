@@ -86,7 +86,9 @@
     }
 }
 
-.input-group-lg > .form-control {
-    font-size: 14px;
-
+.input {
+    &-lg,
+    &-group-lg > .form-control {
+        font-size: 14px;
+    }
 }
