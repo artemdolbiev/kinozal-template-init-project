@@ -60,6 +60,10 @@
   border-radius: 0 0 4px 4px;
 }
 
+.input-group-lg > .form-control {
+  font-size: 14px;
+}
+
 html {
   font-size: 16px;
 }
@@ -99,6 +103,15 @@ a:hover, a:focus {
   font-size: 1.15rem;
   letter-spacing: 0.2em;
   color: #ffffff;
+}
+
+.vertical-slider {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.vertical-slider img {
+  width: 100%;
 }
 
 @media (min-width: 576px) {

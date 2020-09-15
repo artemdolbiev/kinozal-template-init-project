@@ -1,3 +1,12 @@
 .left-slidebar {
     @extend %margin-bottom-lg;
 }
+
+.vertical-slider {
+    border-radius: 4px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
+}
