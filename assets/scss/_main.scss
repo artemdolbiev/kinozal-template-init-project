@@ -1,12 +1,12 @@
 .main {
     @extend %margin-bottom-lg;
 
-    .site-serach {
-        margin-bottom: $gap * 3;
+    .site-search {
+        margin-bottom: 45px;
     }
 
     .user-login {
-        margin-bottom: $gap * 4;
+        margin-bottom: 60px;
     }
 }
 

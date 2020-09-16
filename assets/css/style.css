@@ -3,7 +3,7 @@
 }
 
 .header, .main, .left-slidebar {
-  margin-bottom: 80.0px;
+  margin-bottom: 80px;
 }
 
 .navbar-inverse {
@@ -154,7 +154,7 @@ h2::after {
   color: #ffffff;
 }
 
-.main .site-serach {
+.main .site-search {
   margin-bottom: 45px;
 }
 
@@ -477,7 +477,12 @@ h2::after {
 
 @media (max-width: 575.8px) {
   h1 {
+    margin: 0 0 30px;
     font-size: 2rem;
+  }
+  h2 {
+    margin: 45px 0 30px 45px;
+    font-size: 1.75rem;
   }
   h3 {
     font-size: 1.25rem;
