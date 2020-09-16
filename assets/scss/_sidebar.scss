@@ -64,3 +64,52 @@
 
     }
 }
+
+.top-films {
+    &-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    &-list {
+        position: relative;
+        margin-bottom: 0;
+
+        &__link {
+            background-color: transparent;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            border-top: 1px solid $color-gray;
+            margin-right: -1px;
+            margin-left: -1px;
+            padding: 10px 50px 10px $gap;
+
+            &:first-child {
+                border-radius: 0;
+                border-top: none;
+            }
+
+            &:last-child {
+                border-radius: 0;
+            }
+
+            &:hover,
+            &:focus {
+                background-color: $color-accent !important;
+                color: $color-light !important;
+
+                .badge {
+                    background-color: $color-dark;
+                }
+            }
+        }
+
+        &__badge {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}

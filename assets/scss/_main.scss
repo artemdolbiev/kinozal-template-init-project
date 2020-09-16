@@ -1,3 +1,55 @@
 .main {
     @extend %margin-bottom-lg;
+
+    .site-serach {
+        margin-bottom: $gap * 3;
+    }
+
+    .user-login {
+        margin-bottom: $gap * 4;
+    }
+}
+
+.top-films,
+.new-films {
+    &-row {
+        margin-left: -$gap / 2;
+        margin-right: -$gap / 2;
+    }
+
+    &-item {
+        padding-left: $gap / 2;
+        padding-right: $gap / 2;
+        margin-bottom: $gap;
+
+        &__thumbnail {
+            margin-bottom: 0;
+            transition: 0.2s;
+        }
+
+        &:hover {
+            .thumbnail {
+                background-color: $color-accent;
+                color: $color-light;
+            }
+
+            h3 {
+                color: $color-light;
+            }
+        }
+
+        &__caption {
+            text-align: center;
+        }
+
+        &__title {
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 1rem;
+            font-weight: bold
+        }
+    }
 }
