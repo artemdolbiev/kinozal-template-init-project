@@ -74,7 +74,7 @@
     color: $color-light;
     background-color: $color-accent;
     border: none;
-    letter-spacing: 0.1em
+    letter-spacing: 0.1em;
     }
 
     &-title {
@@ -92,4 +92,9 @@
     &-group-lg > .form-control {
         font-size: 14px;
     }
+}
+
+.well {
+    border: #dddddd;
+    background-color: #f1f1f1;
 }
